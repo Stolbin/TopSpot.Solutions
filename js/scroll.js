@@ -1,26 +1,54 @@
-// const slidePages = document.querySelectorAll('section[(id*="")]');
+var $page = $("html, body");
+$('a[href*="#home"]').scroll(function () {
+  $page.animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    300
+  );
+  return false;
+});
 
-// for (let slidePage of slidePages) {
-//   slidePage.addEventListener("scroll", (e) => {
-//     lastKnownScrollPosition = window.scrollY;
-//     e.preventDefault();
-//     const blockSection = slidePage.getAttribute("id");
+var $page = $("html, body");
+$('a[href*="#about"]').scroll(function () {
+  $page.animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    300
+  );
+  return false;
+});
 
-//     document.querySelector("" + blockSection).scrollIntoView({
-//       behavior: "smooth",
-//       block: "start",
-//     });
-//   });
-// }
-function scrollTo(e) {
-  window.scroll({
-    left: 0,
-    top: 1000,
-    behavior: "smooth",
-  });
-}
+var $page = $("html, body");
+$('a[href*="#services"]').scroll(function () {
+  $page.animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    300
+  );
+  return false;
+});
 
-const scrollPages = document.querySelector("#page");
-scrollPages.addEventListener("scroll", () => {
-  scrollTo(page);
+var $page = $("html, body");
+$('a[href*="#markets"]').scroll(function () {
+  $page.animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    300
+  );
+  return false;
+});
+
+var $page = $("html, body");
+$('a[href*="#contacts"]').scroll(function () {
+  $page.animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    300
+  );
+  return false;
 });
