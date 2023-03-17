@@ -9,6 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 }
 .logo {
   width: 210px;
@@ -22,6 +23,7 @@
   color: #fff;
 }
 .nav-list_link {
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 500;

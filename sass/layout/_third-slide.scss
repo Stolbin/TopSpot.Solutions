@@ -1,0 +1,39 @@
+.ourServices {
+  padding: 170px;
+}
+.ourServices-title {
+  font-family: "Tilt Warp", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  color: #fff;
+}
+.ourServices-list {
+  margin-top: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 150px 100px;
+}
+.ourServices-item {
+  width: 430px;
+}
+.ourServices-item_title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.09em;
+  margin-bottom: 50px;
+  color: #ff0000;
+}
+.ourServices-item_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
