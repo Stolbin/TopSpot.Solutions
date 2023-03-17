@@ -228,4 +228,19 @@ body {
   line-height: 24px;
   letter-spacing: 0.09em;
   color: #ffffff;
+}
+
+.contacts {
+  padding-top: 400px;
+  text-align: center;
+}
+
+.contacts-mail {
+  font-family: "Apex New", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: 0.09em;
+  color: #ff0000;
 }/*# sourceMappingURL=main.css.map */
