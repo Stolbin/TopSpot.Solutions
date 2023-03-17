@@ -81,13 +81,13 @@ body {
   background-size: cover;
 }
 .page:nth-child(2) {
-  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("/images/bg-2.jpg");
+  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("../images/bg-2.jpg");
 }
 .page:nth-child(3) {
-  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("/images/bg-3.jpg");
+  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("../images/bg-3.jpg");
 }
 .page:nth-child(4) {
-  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("/images/bg-4.jpg");
+  background-image: linear-gradient(to right, rgba(57, 53, 53, 0.87), rgba(57, 53, 53, 0.87)), url("../images/bg-4.jpg");
 }
 
 .header {
