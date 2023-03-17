@@ -9,10 +9,12 @@
 @import "./components/container";
 @import "./components/section";
 @import "./components/section-title";
+@import "./components/background";
+@import "./components/swiper";
 
 // Loyout
 @import "./layout/header";
-@import "./layout/hero";
+@import "./layout/first-slide";
 @import "./layout/about";
 @import "./layout/strategy";
 @import "./layout/products";

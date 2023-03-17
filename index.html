@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="/imags/icon_topspot-solutions_180x180.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <img src="./images/logo-hero.png" alt="logo" class="logo" />
       <nav>
         <ul class="nav-list">
@@ -26,24 +38,39 @@
           </li>
         </ul>
       </nav>
-    </header>
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
+    </header> -->
+    <main>
+      <div class="section-box">
+        <section class="page" id="page">
           <figure>
-            <img src="./images/hero_gif.gif" alt="gif" class="bg_hero" />
+            <img src="./images/bg-1.gif" alt="gif" class="bg_hero" />
           </figure>
-          <h1 class="hero-title">
-            <span class="title_text1">FULL SERVICE</span>
-            <span class="title_text2">ESPORTS & GAMING</span>
+          <!-- <h1 class="hero-title">
+            <span id="first" class="title_text1">FULL SERVICE</span>
+            <span id="second" class="title_text2">ESPORTS & GAMING</span>
             <span class="title_text3">AGENCY</span>
-          </h1>
-        </div>
-        <div class="swiper-slide"></div>
-        <div class="swiper-slide"></div>
-        <!-- ... -->
+          </h1> -->
+        </section>
+        <section class="page" id="page">
+          <img src="./images/bg-2.jpg" alt="bg" class="bg_hero" />
+        </section>
+        <section class="page" id="page">
+          <img src="./images/bg-3.jpg" alt="bg" class="bg_hero" />
+        </section>
+        <section class="page" id="page">
+          <img src="./images/bg-4.jpg" alt="bg" class="bg_hero" />
+        </section>
       </div>
-      <div class="swiper-pagination"></div>
-    </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <!-- <script type="module" src="./js/anchor.js"></script> -->
+    <script type="module" src="./js/scroll.js"></script>
   </body>
 </html>

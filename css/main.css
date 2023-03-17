@@ -111,6 +111,22 @@ body {
   }
 }
 
+.bg_hero {
+  width: 100%;
+  height: 100vh;
+  z-index: -999;
+}
+
+.section-box {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.page {
+  scroll-snap-align: start;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -143,9 +159,8 @@ body {
   font-weight: 500;
 }
 
-.bg_hero {
-  width: 100%;
-  height: 100vh;
+.first-slide {
+  position: relative;
 }
 
 .hero-title {
@@ -173,10 +188,12 @@ body {
 .title_text1,
 .title_text3 {
   color: #fff;
+  text-shadow: 1px 1px 4px #f0ebeb;
 }
 
 .title_text2 {
   color: #ff0000;
+  text-shadow: 1px 1px 4px #772727;
 }
 
 .about {
